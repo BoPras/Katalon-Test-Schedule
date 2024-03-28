@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="9.454" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="9.454" skipped="0" timestamp="28-03-2024T11:56:51" hostname="1902 - LAPTOP-JNLHBQ3P.mshome.net" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1902\\git\\Katalon-Test-Schedule\\Reports\\20240328_115646\\New Test Suite\\20240328_115646"/>
+         <property name="logFiles" value="C:\\Users\\1902\\git\\Katalon-Test-Schedule\\Reports\\20240328_115646\\New Test Suite\\20240328_115646\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="1902 - LAPTOP-JNLHBQ3P.mshome.net"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="90de667a2d4e56b3666055e7f5bb41d2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Simple Test Case" time="9.204" classname="Test Cases/Simple Test Case" status="PASSED">
+         <system-out><![CDATA[28-03-2024T11:56:51 - [TEST_CASE][PASSED] - Test Cases/Simple Test Case: Test Cases/Simple Test Case
+
+28-03-2024T11:56:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-03-2024T11:56:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-03-2024T11:56:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-03-2024T11:56:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-03-2024T11:56:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+28-03-2024T11:56:57 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+28-03-2024T11:56:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+28-03-2024T11:56:59 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+28-03-2024T11:56:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+28-03-2024T11:57:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+28-03-2024T11:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+28-03-2024T11:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-03-2024T11:56:51 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Simple Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
